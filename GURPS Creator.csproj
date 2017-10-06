@@ -54,6 +54,7 @@
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="MeleeWeapon.cs" />
+    <Compile Include="Prerequisite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RangedWeapon.cs" />
