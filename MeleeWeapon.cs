@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace GURPS_Creator {
+namespace Equipment {
 
     class MeleeWeapon {
 
         public string Damage { get; set; }
+        public string ArmorDivisor { get; set; }
         public DamageType Type { get; set; }
         public string Reach { get; set; }
         public string Parry { get; set; }
@@ -18,6 +19,7 @@ namespace GURPS_Creator {
 
         public MeleeWeapon() {
             Damage = "";
+            ArmorDivisor = "";
             Type = DamageType.Crushing;
             Reach = "";
             Parry = "";

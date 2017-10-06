@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace GURPS_Creator {
+namespace Equipment {
+
     class Equipment {
 
         public string Name { get; set; }
@@ -51,6 +52,7 @@ namespace GURPS_Creator {
             parseMeleeWeapons(node);
         }
 
+        /*
         public void parseCategories(XmlNode node) {
             XmlNodeList nodes = node.SelectSingleNode("categories").SelectNodes("category");
 
@@ -75,7 +77,6 @@ namespace GURPS_Creator {
             }
         }
 
-        /*
         public void parsePrerequisites(XmlNode node) {
             XmlNodeList nodes = node.SelectNodes("prerequisite");
 

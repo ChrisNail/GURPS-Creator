@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace GURPS_Creator {
+namespace Equipment {
 
     class RangedWeapon {
 
         public string Damage { get; set; }
         public DamageType Type { get; set; }
         public bool Explosion { get; set; }
+        public bool Incendiary { get; set; }
+        public bool Surge { get; set; }
         public int Accuracy { get; set; }
         public int HalfRange { get; set; }
         public int MaxRange { get; set; }
@@ -22,6 +24,9 @@ namespace GURPS_Creator {
         public bool PerShot { get; set; }
         public int Strength { get; set; }
         public bool TwoHanded { get; set; }
+        public bool MusketRest { get; set; }
+        public bool Bipod { get; set; }
+        public bool Mounted { get; set; }
         public int Bulk { get; set; }
         public int Recoil { get; set; }
 
