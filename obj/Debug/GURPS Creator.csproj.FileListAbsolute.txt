@@ -1,4 +1,0 @@
-E:\Programming\GitHub\GURPS Creator\GURPS Creator\obj\Debug\GURPS Creator.csprojResolveAssemblyReference.cache
-E:\Programming\GitHub\GURPS Creator\GURPS Creator\obj\Debug\GURPS_Creator.MainWindow.resources
-E:\Programming\GitHub\GURPS Creator\GURPS Creator\obj\Debug\GURPS_Creator.Properties.Resources.resources
-E:\Programming\GitHub\GURPS Creator\GURPS Creator\obj\Debug\GURPS Creator.csproj.GenerateResource.Cache
